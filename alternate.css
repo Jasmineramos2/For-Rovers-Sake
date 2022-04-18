@@ -1,0 +1,87 @@
+.navbar-nav .nav-link{
+  color:white;
+}
+.navbar-nav .nav-link:hover{
+  background-color:purple;
+}
+
+.top-content { width: 100%; padding: 12px 0 0 0; }
+
+.top-content .carousel { box-shadow: 0 0 15px 0 #444; }
+
+.top-content .carousel-control-prev { left: -110px; border-bottom: 0; font-size: 40px; color: #444; }
+.top-content .carousel-control-next { right: -110px; border-bottom: 0; font-size: 40px; color: #444; }
+
+.top-content .carousel-caption { padding-bottom: 60px; }
+.top-content .carousel-caption h1 { padding-top: 60px; color: #fff; }
+.top-content .carousel-caption h3 { color: #fff; }
+.top-content .carousel-caption .carousel-caption-description { color: #fff; color: rgba(255, 255, 255, 0.8); }
+
+.top-content .carousel-indicators li {
+	width: 16px; height: 16px; margin-left: 5px; marght: 5px; border-radius: 50%;
+}
+
+ .body {
+    background-color: black;
+}
+
+.container-fluid {
+    background-color: #010449
+}
+
+.msg-form {
+    background-color: white;
+    padding: 20px
+}
+
+.pad-icon {
+    padding-top: 50px;
+    padding-left: 20px
+}
+
+.pad-icon a {
+    text-decoration: none;
+    margin-right: 40px
+}
+
+.input-group input:focus {
+    border: 1px solid blue
+}
+
+.pad-icon a:active {
+    height: 30px;
+    width: 30px;
+    background-color: #0080ff;
+    border-radius: 100%
+}
+
+.links {
+    padding-top: 50px;
+    width: 50%
+}
+
+#bordering a:active {
+    border: 1px solid #0080ff
+}
+
+@media(min-width:568px) {
+    .container-fluid {
+        margin: 100px 30px;
+        width: 96%;
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
+}
+
+@media(max-width:567px) {
+    .container-fluid {
+        margin: 10px 10px;
+        width: 94%;
+        padding-top: 20px;
+        padding-bottom: 20px
+    }
+
+    .pad {
+        padding-top: 20px
+    }
+}
